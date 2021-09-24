@@ -34,6 +34,9 @@
 					<div class="editor-container">
 						<div class="editor">
 							<h2>Bilingual Personality Disorder</h2>
+							<figure class="image image-style-side"><img src="https://c.cksource.com/a/1/img/docs/sample-image-bilingual-personality-disorder.jpg">
+								<figcaption>One language, one person.</figcaption>
+							</figure>
 							<p>
 								This may be the first time you hear about this made-up disorder but
 								it actually isn’t so far from the truth. Even the studies that were conducted almost half a century show that
@@ -52,6 +55,32 @@
 								are expressed differently in <strong>different language mindsets</strong>.
 								<Here>is a sample from the the experiment:</Here>
 							</p>
+							<table>
+								<thead>
+									<tr>
+										<th></th>
+										<th>English</th>
+										<th>Japanese</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Real friends should</td>
+										<td>Be very frank</td>
+										<td>Help each other</td>
+									</tr>
+									<tr>
+										<td>I will probably become</td>
+										<td>A teacher</td>
+										<td>A housewife</td>
+									</tr>
+									<tr>
+										<td>When there is a conflict with family</td>
+										<td>I do what I want</td>
+										<td>It's a time of great unhappiness</td>
+									</tr>
+								</tbody>
+							</table>
 							<p>
 								More recent <a href="https://books.google.pl/books?id=1LMhWGHGkRUC">studies</a> show, the language a person speaks affects
 								their cognition, behaviour, emotions and hence <strong>their personality</strong>.
@@ -88,10 +117,34 @@
 						'bulletedList',
 						'numberedList',
 						'|',
+						'outdent',
+						'indent',
+						'|',
+						'imageUpload',
+						'blockQuote',
+						'insertTable',
+						'mediaEmbed',
+						'undo',
+						'redo',
 						'sourceEditing'
 					]
 				},
 				language: 'pt-br',
+				image: {
+					toolbar: [
+						'imageTextAlternative',
+						'imageStyle:inline',
+						'imageStyle:block',
+						'imageStyle:side'
+					]
+				},
+				table: {
+					contentToolbar: [
+						'tableColumn',
+						'tableRow',
+						'mergeTableCells'
+					]
+				},
 					licenseKey: '',
 					
 					
@@ -107,7 +160,7 @@
 				.catch( error => {
 					console.error( 'Oops, something went wrong!' );
 					console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
-					console.warn( 'Build id: tc86kxg887c-f92kmhj9ixix' );
+					console.warn( 'Build id: bhpaa8m2uwzc-qyh8t72ssh4f' );
 					console.error( error );
 				} );
 		</script>
